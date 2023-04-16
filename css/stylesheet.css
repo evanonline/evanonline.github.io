@@ -1,0 +1,175 @@
+body {
+background-color: #d7e4c2;
+max-width: 1000px; /* forces a maximum possible width of 1000px  */
+margin: 0px auto; /* centers the page */
+}
+ @font-face {
+	 font-family: Majesti-Banner;
+	 src: url('Majesti-Banner/Majesti-Banner-Book.otf');
+	 }
+ @font-face {
+	 font-family: Majesti-Banner;
+	 font-weight: bold;
+	 src: url('Majesti-Banner/Majesti-Banner-Book.otf');
+	 } 
+ @font-face {
+	 font-family: Majesti-Banner;
+	 font-weight: normal;
+	 src: url('Majesti-Banner/Majesti-Banner-Light.otf');
+}
+	 }
+
+h1 {
+text-align: center;
+font-size: 150%;
+font-family: Majesti-Banner;
+color: #BE1E2D;
+}
+h2 {
+text-align: center;
+font-size: 125%;
+font-family: Majesti-Banner;
+color: #BE1E2D;
+}
+p {
+font-family: Majesti-Banner;
+color: #41393D;
+}
+
+ul {
+font-family: Majesti-Banner;
+font-size: 150%;
+list-style-type: square;
+
+margin: 0;
+padding: 0;
+}
+
+li {
+font-family: Majesti-Banner;
+}
+
+div.topbannerfull {
+width: 1000px;
+height: 350px;
+background-color: #d4a18d;
+
+display: flex;
+flex-direction: row;
+margin: auto;
+padding: 5px;
+ }
+ 
+div.topbannerleft {
+display: inherit;
+width: 80%;
+height: 80%;
+padding: 60px;
+}
+
+div.topbannerright {
+width: 100%;
+display: inherit;
+margin: auto;
+padding: 120px;
+text-align: left;
+}
+
+div.imageindexalignleft {
+position: relative;
+top: 5px;
+left: 0px;
+}
+
+div.imageindexalignright {
+position: relative;
+top: 5px;
+left: 200px;
+}
+
+div.indexevents {
+position: relative;
+left: 650px;
+width: 50%;
+bottom: 420px;
+}
+
+div.indexmagesunderneath {
+	
+border: 2px spicy;
+position: relative;
+bottom: 100px;
+width: 1000px;
+height: 172px;
+background-color: #d4a18d;
+text-align: center;
+display: block;
+margin: auto;
+padding: 5px;
+}
+
+div.footerfull {
+border: 2px spicy;
+position: relative;
+bottom: 100px;
+width: 1000px;
+height: 172px;
+background-color: #d4a18d;
+text-align: center;
+display: block;
+margin: auto;
+padding: 5px;
+ }
+ 
+div.footerleft {
+display: inherit;
+width: 80%;
+height: 80%;
+padding: 60px;
+}
+
+div.footerright {
+width: 100%;
+display: inherit;
+margin: auto;
+padding: 120px;
+text-align: left;
+}
+
+div.menutext { 
+font-family: Majesti-Banner;
+color: #41393D;
+text-align: center;
+display: flex;
+flex-wrap: wrap; /* will automatically wrap items around */
+justify-content: space-evenly; /* spaces everything out evenly automatically */
+margin: auto;
+padding: 5px;
+}
+
+div.menuoption {
+}
+
+div.contact {
+text-align: center;
+font-family: Majesti-Banner;
+color: #41393D;
+padding-bottom: 100px;
+}
+
+div.aboutpara {
+word-wrap: break-word;
+display: block;
+width: 50%;
+text-align: left;
+margin: auto;
+font-size: 150%;
+padding-bottom: 100px;
+padding-top: 10px;
+}
+
+div.windowimage {
+width: 340px;
+float: left;
+}
+
